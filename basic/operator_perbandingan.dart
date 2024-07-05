@@ -1,4 +1,4 @@
-void main() {
+void main(){
 
   print(10 == 10);
   print(10 != 10);
@@ -7,7 +7,7 @@ void main() {
   print(10 >= 10);
   print(10 <= 10);
 
-  print('adnan' == 'adnan');
-  print('adnan' != 'adnan');
+  print('eko' == 'eko');
+  print('eko' != 'eko');
 
 }

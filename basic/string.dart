@@ -1,25 +1,22 @@
 void main() {
+  String firstName = 'Eko';
+  String lastName = "Khannedy";
 
-  String firstName = 'Adnan';
-  String lastName = "Erlansyah";
-  // var firstName = 'Adnan';
-  // var lastName = "Erlansyah";
+  print(firstName);
+  print(lastName);
 
-  var fullName = '$firstName ${lastName}'; // String interpolation
-  var text = 'this is \'dart\' \$cool'; // Backslash to prevent string interpolation
+  var fullName = '$firstName ${lastName}';
+  print(fullName);
 
-  // print(firstName);
-  // print(lastName);
-  // print(fullName);
-  // print(text);
+  var text = 'this is \'dart\' \$cool';
+  print(text);
 
   var name1 = firstName + " " + lastName;
-  var name2 = 'Adnan' ' Erlansyah';
+  var name2 = 'Eko' ' Kurniawan' ' Khannedy';
 
-  // print(name1);
-  // print(name2);
+  print(name1);
+  print(name2);
 
-  // Multine String
   var longString = '''
 this is long string
 multiline string
@@ -27,5 +24,4 @@ learning dart
   ''';
 
   print(longString);
-
 }

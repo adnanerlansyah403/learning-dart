@@ -1,11 +1,14 @@
-/// Ini adalah comment documentation
-/// yang biasanya akan digenerate dari dart doc 
-void main() {
-  // This is variable
-  var name = "Adnan Erlansyah";
+/// this is main function
+/// will executed by dart
+void main(){
+
+  //  this is name variable
+  var name = 'Eko Kurniawan Khannedy';
 
   /**
-    * Ini adalah komentar
-    * lebih dari satu baris
-  */
+   * this is multi line comment
+   * you can add more here
+   */
+  print(name);
+
 }
